@@ -24,9 +24,27 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/primeng/resources/themes/nova-light/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeicons/primeicons.css",
+              "src/assets/bower_components/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/bower_components/font-awesome/css/font-awesome.min.css",
+              "src/assets/bower_components/Ionicons/css/ionicons.min.css",
+              "src/assets/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css",
+              "src/assets/dist/css/AdminLTE.min.css",
+              "src/assets/dist/css/skins/_all-skins.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/bower_components/jquery/dist/jquery.min.js",
+              "src/assets/bower_components/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/bower_components/datatables.net/js/jquery.dataTables.min.js",
+              "src/assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js",
+              "src/assets/bower_components/jquery-slimscroll/jquery.slimscroll.min.js",
+              "src/assets/bower_components/fastclick/lib/fastclick.js",
+              "src/assets/dist/js/adminlte.min.js",
+              "src/assets/dist/js/demo.js"
+            ]
           },
           "configurations": {
             "production": {

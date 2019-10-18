@@ -1,0 +1,20 @@
+<p>table-bets works!</p>
+
+<p-table [value]="bets">
+    <ng-template pTemplate="header">
+        <tr>
+            <th>DATA</th>
+            <th>HOME</th>
+            <th>AWAY</th>
+            <th>PROFIT</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-bet>
+        <tr>
+            <td>{{bet.data}}</td>
+            <td>{{bet.home_team}}</td>
+            <td>{{bet.away_team}}</td>
+            <td>{{bet.profit}}</td>
+        </tr>
+    </ng-template>
+</p-table>
